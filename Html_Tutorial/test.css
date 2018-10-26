@@ -1,93 +1,67 @@
-﻿       *{
-		 margin:0;
-		 padding:0;
-		 #border: 2px solid red;
-		}
-	       
-			div#wrap{
-			      border: 5px solid black;
-				  width:1400px;
-				  margin: 0 auto;
-			 }	
-			 
-        /*                  START----------MASTHEAD                  */
-		
-			 div#masthead{
-			  background-color:#ebeef3;
-			 }
-			 div#masthead ol {
-		        background-color:98c83d;
-				#border:2px solid black;
-				padding: 3px 0;	
-			 }
-			div#masthead ol li {
-			          #border-right: 2px solid black; 
-			          display:inline;
-                      padding: 0 50px; 	
-                      				  
-			}
-                 /* div#masthead ol li a.hover:hover {
-				     background-color:98c83d;
-					 padding: 8px 25px;
-					 border:2px solid black;
-					 color:yellow;
-				 }	*/
-            div#masthead ol li a:hover {
-			        color:black;
-                        border-bottom:	2px solid black;
-                        padding: 0 50px;
-	                text-decoration:none;
-			}			
-                /*  .MenuBox {
-				 background-color:98c83d;
-				   padding: 15px 30px;
-				   border:2px solid black;
-				 }	*/			 
-			 
-			div#masthead ol li a,div#masthead ol li {
-			                color:white;
-							text-decoration:none;
-                            font-family: 'Oswald', sans-serif;							
-							}
-			div#masthead p {
-			     padding: 4 0 4 1012px;
-				 color:black;
-				 border-bottom-color:;
-				 border-bottom: 9px solid #98c83d;
-			}				
-              
-             div#masthead a img {
-			  #border:2px solid black;
-			  margin:12px 0px 20px 20px;
-			 }			 
-			 
-        /*                  START----------CONTENT                  */
+﻿*{
+	margin:0;
+	padding:0;
+	#border:2px solid red;
+}
+  /*                  START----------WRAP                  */ 
+  div#wrap {
+	  
+	  width:1300px;
+	  margin: 0 auto;
+  }
+  
+  /*                  START----------MASTHEAD                  */
+   div#masthead {
+	   background-color:#ebeef3;
+	   #border:2px solid red;
+	   
+   }
+     
+  div#masthead a img{
+     
+	 margin:12px 0px 15px 20px;
+     border:2px solid red;
+     	 
+	  
+  }
+  div#masthead ol {
+	   background-color:#98c83d;
+       padding:8px;	   
+	  #border:2px solid red;
+  }
+  
+  div#masthead ol li{
+	 display:inline;
+    padding:6px 50px;
+    border-bottom:2px solid black;	
+	margin:-7;
+	  }
 
-            div#content {
-				width:900px;
-				border:2px solid red;
-				margin: 0;
-			} 
-			
-			div#content h1{
-				border: 2px solid red;
-				padding: 30px 0 5px 15px;
-                font-family: 'Oswald', sans-serif;		
-                background-color:#24292e;
-				
-			} div#content h1 b{
-				color:#2bb64b;
-								
-			} 
+   div#masthead ol li.black {
+	   background-color:black;
+	   color:white;
+	   
+   }	  
 
-
-
-
-
-
-
-		
-             table#calender{
-			      border: 2px solid black;
-				  margin: 5px;
-			 }
+  
+  
+  /*                  START-----------CONTENT                  */
+  /*                  START-----------SIDEBAR                  */
+  /*                  START------------FOOTER                  */
+  
+  
+  div#content {
+	  
+	  
+  }
+  
+  
+  div#sidebar {
+	  
+	  
+  }
+  
+  div#footer {
+	  
+	  
+  }
