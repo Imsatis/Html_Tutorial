@@ -17,29 +17,32 @@
 			 }
 			 div#masthead ol {
 		        background-color:98c83d;
-				border:2px solid black;
+				#border:2px solid black;
 				padding: 3px 0;	
 			 }
 			div#masthead ol li {
-			          border-right: 2px solid black; 
+			          #border-right: 2px solid black; 
 			          display:inline;
-                      padding: 0 50px; 					  
+                      padding: 0 50px; 	
+                      				  
 			}
-                  div#masthead ol li a.hover:hover {
+                 /* div#masthead ol li a.hover:hover {
 				     background-color:98c83d;
 					 padding: 8px 25px;
 					 border:2px solid black;
 					 color:yellow;
-				 }	
+				 }	*/
             div#masthead ol li a:hover {
 			        color:black;
+                        border-bottom:	2px solid black;
+                        padding: 0 50px;
 	                text-decoration:none;
 			}			
-                  .MenuBox {
+                /*  .MenuBox {
 				 background-color:98c83d;
 				   padding: 15px 30px;
 				   border:2px solid black;
-				 }				 
+				 }	*/			 
 			 
 			div#masthead ol li a,div#masthead ol li {
 			                color:white;
