@@ -1,4 +1,4 @@
-﻿updated file
+﻿/**updated file**/
 
 *{
 	margin:0;
@@ -8,8 +8,9 @@
   /*                  START----------WRAP                  */ 
   div#wrap {
 	  
-	  width:1300px;
+	  width:1100px;
 	  margin: 0 auto;
+	  background-color:#ebeef3;
   }
   
   /*                  START----------MASTHEAD                  */
@@ -22,7 +23,7 @@
   div#masthead a img{
      
 	 margin:12px 0px 15px 20px;
-     border:2px solid red;
+     #border:2px solid red;
      	 
 	  
   }
@@ -53,10 +54,10 @@
 		background-color:#f2e81c;
 		padding:5px 50px;
 	}	
-	#pink:hover {
+	#purple:hover {
 		color:white;
-		border-bottom:4px solid #fc1855;
-		background-color:#fc1855;
+		border-bottom:4px solid #8477E9;
+		background-color:#8477E9;
 		padding:5px 50px;
 	}
 	#queen:hover  {
@@ -77,7 +78,7 @@
 		background-color:#04b1eb;
 		padding:5px 50px;
 	}
-	#yellow a:hover,#pink a:hover,#queen a:hover,#orange a:hover,#blue a:hover{
+	#yellow a:hover,#purple a:hover,#queen a:hover,#orange a:hover,#blue a:hover{
 		color:red;
 	} 
 	  
@@ -86,27 +87,64 @@
 	   background-color:black;
 	   border-bottom:4px solid black;
 	   color:white;
-	   }	  
+	   }
+
+	div#masthead p {
+		padding-left: 720px;
+		
+		border-bottom: 10px solid #98c83d; 
+	}   	  
 
   
   
   /*                  START-----------CONTENT                  */
-  /*                  START-----------SIDEBAR                  */
-  /*                  START------------FOOTER                  */
   
   
   div#content {
-	  
-	  
+
+	  width:650;
+	  float: left;
+	  #border:2px solid red;
+      padding:0 30px;
+      text-align: justify;
+      #background-color:#ebeef3;
+  }
+  div#content h1 {
+  	#border:2px solid black;
+  	margin:20px 0;
+  	text-align: center;
+  }
+  div#content h2 {
+  	#border:2px solid black;
+  	margin:10px 0;
+  	text-align: left;
+  }
+
+  div#content img {
+  	float:left;
+  	margin:6px 10px 6px 5px;
+    width:300px;
+  	height:180;
   }
   
+  div#content p {
+  	font-size: 20px;
+  }
+  
+  /*                  START-----------SIDEBAR                  */
+
   
   div#sidebar {
-	  
+	  width:382px;
+	  float:right;
+	  border:2px solid black;
 	  
   }
   
+  /*                  START------------FOOTER                  */
+
   div#footer {
+  	clear:both;
 	  
 	  
   }
