@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	padding:0;
+	
+} 
+ 
+ div#topwrap{
+	 margin:0;
+	 border:2px solid red;
+	 display:inline-block;
+	 height:80px;
+	 width:1583px;
+	 position:relative;
+	 background-color:#ffffff;
+ }
+ 
+  
+ 
+  div#container{
+	  margin:0;
+	 width:1145px;
+	 height:80px; 
+	 border:2px solid black;
+	 position:absolute;
+	 left:219px;
+	 
+ }
+ div#leftlogo{
+	 width:572.5px;
+	 height:80px;
+	 border:2px solid blue;	
+ }
+  div#logo{
+	 width:567.5px;
+	 #height:32px;	
+	 margin:24px 3px;
+	 border:2px solid green;
+ }
+ 
+ div#logo img a{
+	 
+	 
+ }
+ 
+ p{
+	 float:left;
+	 border:2px solid red;
+	 clear:both
+	 
+ }
