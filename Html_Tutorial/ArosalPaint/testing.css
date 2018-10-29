@@ -1,4 +1,4 @@
-
+﻿
 *{
 	margin:0;
 	padding:0;
@@ -15,10 +15,10 @@
 	 #border:2px solid red;
 	 #display:inline-block;
 	 
-	 height:80px;
+	 #height:80px;
 	 #height:10%;
-	 width:100%;
-	 position:relative;
+	 #width:100%;
+	 #position:relative;
 	 background-color:#ffffff;
  }
  
@@ -26,48 +26,58 @@
  
   div.container{
 	 box-sizing:border-box;
-	 margin:0;
-	 #width:1145px;
-	 width:72.33101705622236%;
-	 height:80px; 
+	 #max-width:1145px;
+	 #max-width:72.33101705622236%;
+	 #height:80px; 
 	 #border:2px solid black;
-	 position:absolute;
+	 #position:absolute;
 	 #left:219px;
-	 left:14.3449147188882%;
-	 
+	 #left:14.3449147188882%;
+	 #margin:0 auto;
+	 #padding: 0 2px 0 2px;
  }
  div.leftlogo{
 	 #box-sizing:border-box;
 	 #width:572.5px;
-	 width:36.16550852811118%;
-	 height:80px;
+	 #width:36.16550852811118%;
+	 #height:80px;
 	 #border:2px solid blue;	
 	 float:left;
  }
   div.logo{
-	  box-sizing:border-box;
+	 box-sizing:border-box;
 	 #width:567.5px;
-	 width:35.84965255843335%;
+	 #width:35.84965255843335%;
 	 #height:32px;	
-	 margin:24px 3px;
+	 #margin:24px 3px;
+	 padding-top:24px;
+	 padding-bottom:20px;
 	 #border:2px solid green;
+	 #float:left;
  }
 
-
+  div.logo .img{
+	  max-width:100%;
+	  #float:left;
+  }
  
  div.rightlogo{
 	 box-sizing:border-box;
-	 width:572.5px;
+	 #width:572.5px;
 	 #width:36.16550852811118%;
-	 height:80px;
+	 #height:80px;
 	 #border:2px solid blue;
-     float:right;	 
-	 
+     display:inline-block;
+	 float:right;
  }
  div.icon ul {
 	  box-sizing:border-box;
+	  margin:0;
 	  #border:2px solid red;
-	  margin:24px 0 24px 363px;	 
+	  #margin:24px 0 24px 363px;	 
+      padding-top:24px;
+	  padding-bottom:20px;
+	  float:right;
    }
  
   div.icon ul li {
@@ -82,68 +92,107 @@
   /*------------------------------Nav-Wrap-------------------------------------------*/
   
   div.navwrap {
-	  height:68px;
+	  box-sizing:box-border;
+	  #height:68px;
 	  #width:1583px;
-	  width:100%;
+	  #width:100%;
 	  #border:2px solid red;
-	  display:inline-block;
+	  display:block;
 	  background-color:#f07474;
 	  #position:relative;
+	  border-top:5px solid #f07474;
+	  border-bottom:5px solid #f07474;
+	  margin-top:5px;
+	  
   }
   div.nav{
+	  box-sizing:box-border;
 	  #position:absolute;
 	  #left:218px;
-	  width:1583px;
-	  height:60px;
-	  
+	  #width:1583px;
+	  #height:60px;
+	  #border:2px solid black;
+	  #padding-left:55px;
+      margin-top:0px;	  
   }
   div.nav ul{
+	  box-sizing:box-border;
 	  #border:2px solid blue;
-	  margin-left:220px;
-	  margin-top:6px;
-	  width:700px;
-	  
-  } 
-  
-  div.nav ul li {
 	  display:inline-block;
-	  #border:2px solid black;
-	  #padding:15px 20px;
-	  margin:-3;
+	  #margin-left:220px;
+	  #margin-top:6px;
+	  #width:700px;
+	  #padding:6px 0 0 200px;
+	  margin-top:0px;
+	  margin-bottom:0px;
+	  padding-left:58px;
 	  
   }
-  div.nav ul li a{
+   div.nav ul li a img.set{
+	   padding:0;
+	   margin:0;
+   }  
+  
+  div.nav ul li {
+	  box-sizing:box-border;
+	  display:inline-block;
+	  #border:2px solid black;
+	  #padding:15px 24px;
+	  #margin-left:-2;
+	  #border:2px solid black;
+  }
+  div.nav ul li a.unset{
+	  box-sizing:box-border;
+	  display:block;
+	  font-size:16px;
+	  #font-weight:100;
+	  color:#fff;
+	  font-family: 'Oxygen', sans-serif;
+	  #padding-left:15px;
+	  #padding-right:15px;
+	  padding:19px 19px;
+	  #padding:18px 18px;
+	  #border:2px solid black;
+	  text-decoration:none;
+	  #margin-top:7px;
+	  #margin-left:8px;
+	 }
+  div.nav ul li a.set{
+	  box-sizing:box-border;
 	  display:block;
 	  font-size:16px;
 	  color:#fff;
 	  font-family: 'Oxygen', sans-serif;
-	  padding:15px 15px;
-	  #border:2px solid black;
+	  padding-top:16px; 
+	  padding-bottom:16px;
+	  padding-left:12px;
+	  padding-right:6px;
 	  text-decoration:none;
-	  margin-top:7px;
-	  margin-left:8px;
-	 }
+	 }	 
 	 
-  div.nav ul li:hover,div.nav ul li a:hover{
-	  opacity:0.5;                           /**HOVER_______Work**/
-	  #background-color:white;
-	  color:white;	
+  div.nav ul li a:hover{
+                           /**HOVER_______Work**/
+	  background-color:rgba(255,255,255,0.4);
+	  #color:white;	
   } 
-    div.nav ul li a img.set{
-	margin-left:8px;
- }	 
+	
+    div.nav ul li a img{
+	margin-left:12px;
+ }	
+   
   /*------------------------------box-Wrap-------------------------------------------*/
   
   div.boxwrap{
-	width:auto;
-	height:630px;
-    background-image:url("img/back.jpg");
+	#width:auto;
+	#height:630px;
+    #background-image:url("img/back.jpg");
+	
 	#border:5px solid red;
 	position:relative;
   }
   div.shadow{
-	 width:100%;
-     height:630px;
+	 #width:100%;
+     #height:630px;
      #border:5px solid green;
      background-color:rgba(0,0,0,0.4);	 
   }
