@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿Skip to content
  
 Search or jump to…
@@ -16,6 +17,9 @@ Html_Tutorial/Html_Tutorial/ArosalPaint/testing.css
      
 775 lines (689 sloc)  15.1 KB
 /**New update**/
+=======
+﻿/**New update**/
+>>>>>>> 0ce40b5eac00890dcdf90f7dc5e9d73ae12a326c
 
 *{
 	margin:0;
@@ -780,6 +784,17 @@ div.centerfooter div.scnd ul.licon{
 	  margin-left:32px;    
   }
   div.centerlast div.right{
+<<<<<<< HEAD
+	  
+	  #border:2px solid red;
+	  display:block;
+	  float:right;
+	  margin-top:15px;
+	  margin-right:27px;
+  }
+  div.centerlast div.right img{
+=======
+>>>>>>> 0ce40b5eac00890dcdf90f7dc5e9d73ae12a326c
 	  
 	  #border:2px solid red;
 	  display:block;
