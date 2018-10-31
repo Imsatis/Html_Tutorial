@@ -1,5 +1,4 @@
-﻿icon
-*{
+﻿*{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
@@ -208,7 +207,7 @@
   
   div.innerbox div.text{
 	  position:absolute;	
-	  top:3vw;
+	  top:3.3vw;
 	  width:100%;
 	  #background-color:green;
 	  
@@ -217,10 +216,14 @@
 	div.innerbox div.text h1{
 	  width:100%;
 	  #background-color:black;
-	  color:white;
+	  color:#ffffff;
 	  text-align:center;
 	  font-family: 'Oxygen', sans-serif;
-	  font-size:3.33vw;
+	  font-size:50px;
+	  font-weight:700;
+	  line-height:51px;
+	  letter-spacing:1px;
+	  word-spacing:1px;
 	  
     }
 	div.innerbox div.text p{
@@ -230,8 +233,11 @@
 	  #background-color:pink;
 	  color:white;
 	  text-align:center;
-	  font-family: 'Oxygen', sans-serif;
-	  font-size:22px;
+	  font-family: "Source Sans Pro", sans-serif;
+	  font-weight:400;
+	  font-size:24px;
+	  line-height:30px;
+	  
 	  
     }
 	
@@ -468,15 +474,28 @@
 		margin-right:.0vw;
 			
 	   }
+	  
 	   
 	div.youtube div.row img{
 		#border:2px solid red;
 		padding-bottom:20px;
 		border-bottom:5px solid #dfdfdf;
+		position:relative;
+		width:510px; 
+		height:275px;
+		
 	}   
-     div.youtube div.you button div{
+     div.youtube div.you button div img{
 	   background-color:rgba(0,0,0,0.5);
 	   #border:1px solid red;
+	   width:50px; 
+	   height:50px;
+	   position:absolute;
+	   
+	  }
+	  div.youtube div.you{
+		  width:490px;
+		  height:
 	  }
   
   
@@ -668,8 +687,8 @@ div.centerfooter div.scnd ul.licon{
 	    height:270px;
 	}
 	div.centerfooter div.thrd ul{
-		margin-top:12px;
-		margin-left:17px;
+		margin-top:13.5px;
+		margin-left:17.5px;
 		
 	}
     div.centerfooter div.thrd ul li{
@@ -703,6 +722,7 @@ div.centerfooter div.scnd ul.licon{
   div.footerwrap div.last{
 	  height:57px;
 	  background-color:#121C2F;
+	  overflow:hidden;
   }
   div.last div.centerlast{
 	  width:1146px;
@@ -717,7 +737,16 @@ div.centerfooter div.scnd ul.licon{
 	  float:left;
 	  #letter-spacing:.5px;
 	  margin-top:17.5px;
-	  margin-left:32px;
+	  margin-left:32px;    
+  }
+  div.centerlast div.right{
 	  
+	  #border:2px solid red;
+	  display:block;
+	  float:right;
+	  margin-top:15px;
+	  margin-right:27px;
+  }
+  div.centerlast div.right img{
 	  
   }
