@@ -1,4 +1,6 @@
-﻿*{
+﻿update
+
+*{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
@@ -484,21 +486,42 @@
 		width:510px; 
 		height:275px;
 		
-	}   
-     div.youtube div.you button div img{
+	}  
+    div.row div.back{
+		width:510px; 
+		height:275px;
+		#border:1px solid red;
+		#background-color:rgba(0,0,0,0.4);
+	}
+	
+	/*------------------------------youtube-Wrap-test-------------------------------------------*/ 
+ /*--  
+    div.youtube div.you button div img{
 	   background-color:rgba(0,0,0,0.5);
 	   #border:1px solid red;
 	   width:50px; 
 	   height:50px;
 	   position:absolute;
-	   
 	  }
-	  div.youtube div.you{
-		  width:490px;
-		  height:
+	  
+	  div.youtube div.leftyou{
+		padding-bottom:20px;
+		border-bottom:5px solid #dfdfdf;
+		position:relative;
+		width:510px; 
+		height:275px;
+		background-image:url('img/left.jpg')
 	  }
-  
-  
+      
+	  div.youtube div.rightyou{
+		padding-bottom:20px;
+		border-bottom:5px solid #dfdfdf;
+		position:relative;
+		width:510px; 
+		height:275px;
+		background-image:url('img/right.jpg')
+	  }
+   ---*/
    /*------------------------------youtube-Wrap-------------------------------------------*/ 
    
    div.bottomcontent div.bottomblock {
