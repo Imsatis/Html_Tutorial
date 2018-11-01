@@ -118,8 +118,9 @@
   }
   div.nav ul{
 	  box-sizing:box-border;
-	  #border:2px solid blue;
-	  display:inline-block;
+	  border-top:1px solid #f9a3a3;
+	  border-bottom:1px solid #f9a3a3;
+	  display:block;
 	  #margin-left:220px;
 	  #margin-top:6px;
 	  #width:700px;
@@ -430,7 +431,7 @@
 	  font-weight:530;
 	  font-size:15px;
 	  word-spacing:-1px;
-	  border-bottom:2px solid red;
+	  border-bottom: 3px solid #eec5c5;
 	  
   }
   
@@ -525,7 +526,7 @@
    /*------------------------------youtube-Wrap-------------------------------------------*/ 
    
    div.bottomcontent div.bottomblock {
-	   #border:0.2px solid black;
+	   border: 1px solid #d3d3d3;
 	   margin-top:61px;	   
 	   display:block;
 	   margin-left:29px;
