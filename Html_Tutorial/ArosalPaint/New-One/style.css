@@ -1,4 +1,4 @@
-updated
+homework
 
 *{
 	margin:0;
@@ -9,12 +9,15 @@ updated
 /*------------------------------TopWrap-------------------------------------------*/
     .topwrap{
         margin-bottom: 6px;
+
     }
 
     div.leftlogo .logo{
         padding-top:24px;
         padding-bottom: 20px;
         margin-left:-8px;
+        
+    
      }
      div.rightlogo {
        
@@ -109,22 +112,26 @@ div.navwrap{
     background: #f07474;
     display: inline-block;
     width:100%;
+    
 }
 
 div.navwrap .navborder{
        margin:5px 0;
        border-top:1px solid #f9a3a3;
        border-bottom:1px solid #f9a3a3;
+
 }
 .navmenu{
     #background-color:yellow;
     #margin-left:-8px; 
     #height:58px;
 
+
 }
 
 div.navmenu ul{
     margin:0;  
+
 }
 div.navmenu ul li {
     box-sizing:box-border;
@@ -132,6 +139,7 @@ div.navmenu ul li {
     list-style-type: none;
     #background-color: red;
     margin-left:-4px;
+
     
 }
 div.navmenu ul li a{
@@ -157,35 +165,45 @@ div.navmenu ul li a:hover{
 .container-fluid{
     #margin:0;
     padding:0;
+    #border: 2px solid red;
+    position:relative;
 }
 
     .slidecontrol{
-        position:relative;
+        #position:relative;
         #background-color: red;
-        left:90%;
+        #left:90%;
+        #border: 2px solid red;
     }
 
     .imgwrap{
-        position:relative;
+        #position:relative;
         #background-image: no-repeat;
         #border:5px solid red;
     }
+    .item{
+     #border:5px solid red; 
+     #position:relative;  
+    }
     .textarea{
+       #z-index:100;
        position: absolute;
        top:0;
        right:0;
        left:0;
        bottom:0;
        background-color:rgba(0,0,0,0.4);
-       padding: 5px 10px;
+       margin: 5px 5px;
        #height:500px;
+       #width: 100%;
        display:block;
-       color :white; 
+       #color :white; 
+
     }
 
 
     .textarea .text{
-        background-color:rgba(0,0,0,0.5);
+        #background-color:rgba(0,0,0,0.5);
         margin-top:11%;
         text-align: center;
     }
@@ -214,4 +232,31 @@ div.navmenu ul li a:hover{
         line-height: 30px;
         text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
         font-family: "Source Sans Pro", sans-serif;
+        color: white;
+    }
+
+    .clickbttn{
+        display: inline-block;
+        font-size: 21px;
+        padding:8px 49px; 
+        cursor: pointer;
+        background-color: #17436c;
+        text-shadow:0px 1px 0px #17436c;
+        box-shadow: inset 0px 3px 6px -5px #ffffff;
+        border-radius: 26px;
+        font-family: 'Oxygen', sans-serif;  
+        position:relative;
+        left:41.5%;
+
+    }
+    .clickbttn a{
+       text-decoration: none;
+       color:#ffffff;
+       transition: all 1s;
+       
+    }
+
+    .clickbttn:hover{
+         background-color: #1d5585;
+            
     }
