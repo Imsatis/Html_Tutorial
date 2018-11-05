@@ -1,3 +1,5 @@
+updated
+
 *{
 	margin:0;
 	padding:0;
@@ -5,7 +7,69 @@
 } 
 
 /*------------------------------TopWrap-------------------------------------------*/
+    .topwrap{
+        margin-bottom: 6px;
+    }
 
+    div.leftlogo .logo{
+        padding-top:24px;
+        padding-bottom: 20px;
+        margin-left:-8px;
+     }
+     div.rightlogo {
+       
+        margin-right: 5px;
+     }
+
+     div.rightlogo .icon{
+        padding-top:24px;
+        padding-bottom: 20px;
+        float: right;
+        
+     }
+     div.topwrap div.rightlogo ul{
+         margin:0;  
+     }
+    div.topwrap div.rightlogo ul li{
+        list-style-type: none;
+        display: inline-block;
+        margin-right:4px;
+        width: 27px;
+        height: 28px;
+       
+    }
+    div.topwrap div.rightlogo ul li a{
+        padding: 1px 7px 7px 20px;
+        #border: 2px solid red;
+    }
+
+    div.topwrap div.icon ul li.fb{
+        background: url(img/top-icons.png) no-repeat 0 0;
+        
+    }
+    div.topwrap div.icon ul li.tw{
+        background: url(img/top-icons.png) no-repeat -35px 0;
+       
+    }
+    div.topwrap div.icon ul li.in{
+        background: url(img/top-icons.png) no-repeat -70px 0;
+    
+    }
+    div.topwrap div.icon ul li.gp{
+        background: url(img/top-icons.png) no-repeat -105px 0;
+       
+    }
+    div.topwrap div.icon ul li.pn{
+        background: url(img/pt.png) no-repeat 0 0;
+        
+    }
+    div.topwrap div.icon ul li.rs{
+        background: url(img/rss.png) no-repeat 0 0;
+        
+    }
+
+
+/**
 
 div.leftlogo {
     margin-left:-8px;
@@ -29,9 +93,125 @@ div.rightlogo ul{
 
 div.rightlogo ul li {
     list-style-type: none;
-    display: inline-block;
-    margin-right:4px;
-}  
 
+}  
+div.topwrap div.container{
+    height:80px;
+}
+.row{
+    height:80px;
+}
+**/
 
 /*------------------------------Nav-Wrap-------------------------------------------*/
+
+div.navwrap{
+    background: #f07474;
+    display: inline-block;
+    width:100%;
+}
+
+div.navwrap .navborder{
+       margin:5px 0;
+       border-top:1px solid #f9a3a3;
+       border-bottom:1px solid #f9a3a3;
+}
+.navmenu{
+    #background-color:yellow;
+    #margin-left:-8px; 
+    #height:58px;
+
+}
+
+div.navmenu ul{
+    margin:0;  
+}
+div.navmenu ul li {
+    box-sizing:box-border;
+    display:inline-block;
+    list-style-type: none;
+    #background-color: red;
+    margin-left:-4px;
+    
+}
+div.navmenu ul li a{
+    padding:15px 20px;
+    display: block;
+    font-family: 'Oxygen', sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#ffffff;
+    #background-color: red;
+    #margin:11px 0;
+}
+
+div.navmenu ul li a:hover{
+    text-decoration: none;
+    background-color: #f9a3a3;  
+}
+
+
+/**------------------------------Box-Wrap-------------------------------------------**/
+
+.container-fluid{
+    #margin:0;
+    padding:0;
+}
+
+    .slidecontrol{
+        position:relative;
+        #background-color: red;
+        left:90%;
+    }
+
+    .imgwrap{
+        position:relative;
+        #background-image: no-repeat;
+        #border:5px solid red;
+    }
+    .textarea{
+       position: absolute;
+       top:0;
+       right:0;
+       left:0;
+       bottom:0;
+       background-color:rgba(0,0,0,0.4);
+       padding: 5px 10px;
+       #height:500px;
+       display:block;
+       color :white; 
+    }
+
+
+    .textarea .text{
+        background-color:rgba(0,0,0,0.5);
+        margin-top:11%;
+        text-align: center;
+    }
+     .carousel-caption{
+         
+     }
+
+     .textarea .text h1{
+        font-size: 50px;
+        line-height: 51px;
+        padding-bottom: 4px;
+        color: #fff;
+        font-family: 'Oxygen', sans-serif;
+        font-weight: 700;
+        text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.5);
+        margin-bottom: 16px;
+        letter-spacing:1px;
+        word-spacing:1px;
+    }
+
+     
+    .textarea .text p{
+        font-size: 24px;
+        display: block;
+        padding-bottom: 30px;
+        line-height: 30px;
+        text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
+        font-family: "Source Sans Pro", sans-serif;
+    }
