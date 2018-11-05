@@ -1,0 +1,17 @@
+https://www.w3.org/TR/CSS2/visuren.html#choose-position
+
+I have 3 div elements.
+
+1st div is bigger (wrap) and has position:relative;
+
+2nd div is positioned absolute to the 1st div relative positioning (and is included in the 1st div)
+
+3rd div is contained in the 2nd div and also has absolute positioning.
+
+
+"Because the 3rd div is absolute positioning to the absolute positioned 2nd div."
+
+/**absolute: The element is positioned relative to its first positioned (not static) ancestor element**/
+
+ I think you're confusing this a little. position:relative means that element will be positioned (using top, right, bottom left) relatively from its current position. position: absolute means it will be positioned relative to browsers window or first parent with position: absolute or position: relative.
+
