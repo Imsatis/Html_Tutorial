@@ -161,7 +161,7 @@
   div.nav ul li a.set{
 	  box-sizing:box-border;
 	  display:block;
-	  font-size:16px;
+		
 	  color:#fff;
 	  font-family: 'Oxygen', sans-serif;
 	  padding-top:16px; 
@@ -173,8 +173,8 @@
 	 
   div.nav ul li a:hover{
                            /**HOVER_______Work**/
-	  background-color:rgba(255,255,255,0.4);
-	  #color:white;	
+	  #background-color:rgba(255,255,255,0.4);
+	  color:#f9a3a3;	
   } 
 	
     div.nav ul li a img{
@@ -235,8 +235,8 @@
 	  top:0.9vw;
 	  #background-color:pink;
 	  color:white;
-	  text-align:center;
 	  font-family: "Source Sans Pro", sans-serif;
+	  text-align:center;
 	  font-weight:400;
 	  font-size:24px;
 	  line-height:30px;

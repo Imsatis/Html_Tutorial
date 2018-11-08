@@ -1,4 +1,4 @@
-home-work
+office-work
 
 *{
 	margin:0;
@@ -12,21 +12,28 @@ home-work
 
     }
 
+    .topwrap .top-container{
+        #background-color:yellow;
+        #display:inline-block;
+        margin-left:-15px;
+        margin-right:-15px;
+        #padding:0;
+    }
+
     div.leftlogo .logo{
         padding-top:24px;
         padding-bottom: 20px;
-        margin-left:-8px;
-        
-    
+        #margin-left:-14px;
      }
+
      div.rightlogo {
-       
-        margin-right: 5px;
+       margin-right: -4px;
      }
 
      div.rightlogo .icon{
         padding-top:24px;
         padding-bottom: 20px;
+        #margin-right:-15px;
         float: right;
         
      }
@@ -36,10 +43,13 @@ home-work
     div.topwrap div.rightlogo ul li{
         list-style-type: none;
         display: inline-block;
-        margin-right:4px;
+        margin-right:4.5px;
         width: 27px;
         height: 28px;
-       
+        -webkit-transition: All .5s ease;
+    }
+    div.topwrap div.rightlogo ul li.set{
+        margin-right:4.1px;
     }
     div.topwrap div.rightlogo ul li a{
         padding: 1px 7px 7px 20px;
@@ -50,6 +60,7 @@ home-work
         background: url(img/top-icons.png) no-repeat 0 0;
         
     }
+
     div.topwrap div.icon ul li.tw{
         background: url(img/top-icons.png) no-repeat -35px 0;
        
@@ -71,6 +82,33 @@ home-work
         
     }
 
+    div.icon ul li.fb:hover,div.icon ul li.tw:hover,div.icon ul li.in:hover,div.icon ul li.gp:hover,div.icon ul li.pn:hover,div.icon ul li.rs:hover{
+        -webkit-transform: rotate(360deg) scale(1.3);
+        transform: rotate(360deg) scale(1.3);
+    }
+
+    div.topwrap div.icon ul li.fb:hover{
+        background: url(img/top-icons-bw.png) no-repeat 0 0;
+    }
+    div.topwrap div.icon ul li.tw:hover{
+        background: url(img/top-icons-bw.png) no-repeat -35px 0;   
+    }
+    div.topwrap div.icon ul li.in:hover{
+        background: url(img/top-icons-bw.png) no-repeat -70px 0;
+    
+    }
+    div.topwrap div.icon ul li.gp:hover{
+        background: url(img/top-icons-bw.png) no-repeat -105px 0;
+       
+    }
+    div.topwrap div.icon ul li.pn:hover{
+        background: url(img/pinterest-b.png) no-repeat 0 0;
+        
+    }
+    div.topwrap div.icon ul li.rs:hover{
+        background: url(img/rss-b.png) no-repeat 0 0;
+        
+    }
 
 /**
 
@@ -107,58 +145,102 @@ div.topwrap div.container{
 **/
 
 /*------------------------------Nav-Wrap-------------------------------------------*/
-
-div.navwrap{
-    background: #f07474;
-    display: inline-block;
-    width:100%;
-    
+.navwrap .navbar-default{
+    margin:0; 
+    border:0;   
 }
-
-div.navwrap .navborder{
-       margin:5px 0;
-       border-top:1px solid #f9a3a3;
-       border-bottom:1px solid #f9a3a3;
-
-}
-.navmenu{
-    #background-color:yellow;
-    #margin-left:-8px; 
-    #height:58px;
-
-
-}
-
-div.navmenu ul{
-    margin:0;  
-
-}
-div.navmenu ul li {
-    box-sizing:box-border;
-    display:inline-block;
-    list-style-type: none;
-    #background-color: red;
-    margin-left:-4px;
-
-    
-}
-div.navmenu ul li a{
-    padding:15px 20px;
+.navwrap .nav-wrapper{
+    background-color: #f07474;
+    #border:2px solid red;
+    color: #fff;
     display: block;
+    
+    
+}
+.navwrap .nav-wrapper .navi-border{
+    margin:5px 0;
+    border-top:1px solid #f9a3a3;
+    border-bottom:1px solid #f9a3a3;
+}
+
+.navbar-default .navbar-toggle{
+    border:0;
+    background-color: #313d53;
+    
+    
+}
+/*******************************Hover**************************/
+.navwrap .nav-wrapper ul li a:hover{
+    background: #f9a3a3;
+    color:#fff;
+}
+
+.navwrap .nav-wrapper ul li a{
+    color: #fff;
+    text-decoration: none;
+    #display:inline-block;
+    #background: red;
+    padding:15px 20px;
+    #padding-left:28px;
     font-family: 'Oxygen', sans-serif;
     font-size:16px;
     font-weight: 400;
     line-height: 24px;
     color:#ffffff;
-    #background-color: red;
-    #margin:11px 0;
+}
+.navwrap .nav-wrapper ul li .set-1{
+   # padding-left:20px;
+}
+.navwrap .nav-wrapper ul li .set-2{
+    #margin-top:30px;
+   # padding-left:11px;
+   # padding-right:11px; 
+}
+.navwrap .nav-wrapper ul li .set-3{
+    #margin-left:-16px;
+    #padding-left:0px;
+    #background:yellow;
+}
+.navwrap .nav-wrapper img{
+    margin-left:9.5px;
 }
 
-div.navmenu ul li a:hover{
+.navwrap .right{
+    #background-color:blue;
+    margin-right: -15px;     
+}
+
+.navwrap .dropdown{
+    position: relative;
+    #background-color:red;
+    #display:inline-block;
+    margin-top:15px;
+    #margin-left:2px;
+    margin-bottom:15px;
+
+}
+.navwrap .dropdown-content{
+    display:none;
+    position: absolute;
+    margin-top:15px;
+    background-color: #f07474;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown .dropdown-content a.drop-font{
+    color:#fff;
+    font-size:14px; 
+    font-family: 'Oxygen', sans-serif;
+    line-height:24px;
+    padding: 12px 16px;
     text-decoration: none;
-    background-color: #f9a3a3;  
+    display: block;
 }
-
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 /**------------------------------Box-Wrap-------------------------------------------**/
 
@@ -188,7 +270,7 @@ div.navmenu ul li a:hover{
        left:0;
        bottom:0;
        background-color:rgba(0,0,0,0.4);
-       margin: 5px 0px;
+       margin: 0px 0px;
        #height:500px;
        #width: 100%;
        display:block;
@@ -303,6 +385,7 @@ div.left-arrow a:hover,div.right-arrow a:hover{
 
 .contentwrapper .content-container{
     box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.4);
+    margin-left:-4px;
     display: inline-block;
     #border: 2px solid green;
     #margin-left:0;
@@ -406,7 +489,7 @@ div.left-arrow a:hover,div.right-arrow a:hover{
 
  .youtube-wrapper .you-box {
       border-bottom:4px solid #dfdfdf;
-      margin:0 30px 60px 30px;
+      margin:0 15px 60px 15px;
   
 }
 
@@ -415,6 +498,9 @@ div.left-arrow a:hover,div.right-arrow a:hover{
     height:270px;
     margin-bottom:15px; 
     #background-color:red;
+}
+iframe{
+    border:0;
 }
 .box1:hover, .box2:hover{
     opacity:.8;
@@ -442,6 +528,7 @@ div.left-arrow a:hover,div.right-arrow a:hover{
 .content-bottom .bottom-feature p{
     font-size:27px;
     margin-top:37px;
+    margin-bottom: 0px;
     padding-bottom: 13px;
     line-height: 30px;
     font-family:"Source Sans Pro", sans-serif;
@@ -492,6 +579,7 @@ div.left-arrow a:hover,div.right-arrow a:hover{
     color: #fff;
     padding-bottom: 14px;
     margin-bottom: 13px;
+    letter-spacing:1px;
     background:url('img/border-dashed.png') bottom repeat-x;
     font-size: 18px;
     line-height: 24px;
@@ -544,7 +632,7 @@ div.left-arrow a:hover,div.right-arrow a:hover{
 }
 .footer-bottom p{
    padding: 18px 0 18px 32px;
-   font-size: 16px;
+   font-size: 15px;
    line-height: 22px;
    margin:0;
 }
@@ -577,6 +665,7 @@ div.left-arrow a:hover,div.right-arrow a:hover{
   }
   .footer-bottom .fb:hover{
      background:url('img/ftr-icons-bw.png') no-repeat -25px -1px; 
+     transition: 0.5s;
   }
 
  .footer-bottom .tw {
@@ -584,12 +673,14 @@ div.left-arrow a:hover,div.right-arrow a:hover{
   }
   .footer-bottom .tw:hover {
     background: url('img/ftr-icons-bw.png') no-repeat -83px 0;
+    transition: 0.5s;
   }
   .footer-bottom .gp{
     background:url('img/ftr-icons-color.png') no-repeat -141px -1px;
   }
   .footer-bottom .gp:hover {
     background:url('img/ftr-icons-bw.png') no-repeat -141px -1px;
+    transition: 0.5s;
   }
 
   .footer-bottom .rs{
@@ -597,6 +688,7 @@ div.left-arrow a:hover,div.right-arrow a:hover{
   }
   .footer-bottom .rs:hover {
     background:url('img/ftr-icons-bw.png') no-repeat -198px -1px;
+    transition: 0.5s;
   }
 
   .footer-bottom .pn{
@@ -605,6 +697,7 @@ div.left-arrow a:hover,div.right-arrow a:hover{
 
   .footer-bottom .pn:hover {
     background:url('img/ftr-icons-bw.png') no-repeat -256px 0;
+    transition: 0.5s;
   }
 
   .footer-bottom .in{
@@ -612,4 +705,5 @@ div.left-arrow a:hover,div.right-arrow a:hover{
   }
   .footer-bottom .in:hover {
     background:url('img/in-b.png') no-repeat 0 0;
+    transition: 0.5s;
   }
