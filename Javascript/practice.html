@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript</title>
+</head>
+<body>
+
+    <div id="output" ></div>
+    
+   <script>
+   
+   /*
+     var ask="are you sure";
+     var ans=prompt(ask);
+     console.log(ans);
+     var string="a"+" "+"b";
+
+     if(ans=="yes"){
+         console.log("ok");
+     }
+     else{
+         console.log("sorry");
+     }
+ */
+
+  //var array=["string",100,true];
+  //var newarray=new Array;
+  
+  //Genrating Random output....
+  /*
+  var animal=["cat","dog","rat","cow","bird"];
+  var res=Math.floor(Math.random()*5);
+  console.log(animal[res]);
+  */
+
+//objects inside object;
+ 
+ /*
+  var cars={car1:{color:"red",brand:"Range Rover",model:"Velar"},car2:{color:"pink",brand:"audi",model:"Q5"}};
+  var bikes={color:"blue",brand:"Yamaha",model:"Hayabusa"};
+
+  var obj={fourWheeler:cars,bike:bikes};
+ */
+ 
+  //looping array
+ var arr=["Mark","Jhon","Mary","Lark"];
+    
+    for(x of arr){
+        console.log(x);
+    }
+
+  //looping object
+ var obj={name:"Mark",lastname:"Weins",age:25}
+   
+    for(var x in obj){
+        console.log(obj[x]);    
+    }
+
+   var output=document.getElementById("output");
+    for(var value in document){
+        output.innerHTML+=value+" = "+document[value]+"<br>";
+        //console.log(value);
+    }
+       
+
+
+   </script>
+
+
+    
+</body>
+</html>
